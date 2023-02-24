@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.p-section {
+    position: relative;
+}
+
+.br-child {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    padding: 17px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-bar {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .tects {
+        display: none;
+    }
+}
+
+
+.br-logo {
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.br-arch p {
+    margin: 0;
+    letter-spacing: 4px;
+    margin-left: 12px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: black;
+    padding: 10px 17px;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+
+.bg-image {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+}
+
+img {
+    background-size: cover;
+    width: 100%;
+}
+
+.br-logo {
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px 10px 10px 20px;
+    font-size: 32px;
+    color: white;
+    font-weight: 800;
+    margin-right:15px;
+    display: inline-block;
+}
+
+.bg-image p:not(span) {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+.project-div {
+    margin: 25px;
+    margin-top: 60px;
+}
+
+.project-div h3{
+    font-weight: 100;
+    display: inline-block;
+}
+
+.half-img {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.summer-house {
+    position: relative;
+    padding: 5px 7px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .summer-house {
+        width: 100%;
+    }
+    .half-img {
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .half-img {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .summer-house {
+        width: 49.9999%;
+        display: inline;
+    }
+}
+
+.summer {
+    position: absolute;
+    background-color: black;
+    color: white;
+    box-sizing: inherit;
+    padding: 10px;
+}
+
+
+.about-page {
+    margin: 25px;
+    margin-top: 60px;
+}
+
+.about h3{
+    font-weight: 100;
+    display: inline-block;
+}
+
+.architect {
+    width: 24.9999%;
+    padding: 9px;
+}
+
+.architects-page {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .architects-page {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .architect {
+        width: 49.9999%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .architects-page {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .architect {
+        width: 100%;
+    }
+}
+
+.about p {
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+.name {
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.occupation {
+    opacity: 0.7;
+}
+
+.contact-button {
+    width: 100%;
+    border-style: none;
+    padding:12px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.contact-button:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.about-page {
+    display: block;
+}
+
+.contact-page {
+    font-size: 19px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    margin-bottom: 14px;
+    padding: 10px;
+    font-weight: 16px;
+}
+ 
+.send-message {
+    background-color: black;
+    padding: 7px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.powered-by {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+i {
+    text-decoration: line-through;
+}
+
+.contact-form-page {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
