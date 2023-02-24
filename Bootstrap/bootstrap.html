@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"><span class="text-warning">Build</span>Con</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="home">Home</a>
+        </li>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="service">Service</a>
+        </li>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio">Portfoilo</a>
+        </li>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="team">Team</a>
+        </li>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/home-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-white">
+            <h5>Your Dream House</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ut est iure quo itaque commodi.</p>
+            <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/home-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-white">
+          <h5>Always Dedicated</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ut est iure quo itaque commodi.</p>
+          <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/home-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-white">
+            <h5>True Construction</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ut est iure quo itaque commodi.</p>
+            <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="about" class="about section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="about-img">
+                    <div><img src="images/about.jpg" alt="" class="img-fluid"></div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5 mt-5">
+                <div class="about-text">
+                   <div class="about-writeup">
+                    <h2>We Provide Best Quality <br> Services Ever</h2>
+                   <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium expedita officiis voluptatibus tempore dignissimos non corporis doloremque dolor ipsa consectetur nobis, autem aut natus itaque amet incidunt, id, necessitatibus voluptate illum possimus quod nam deleniti officia in. Similique ducimus explicabo ex doloremque. Sunt, odio eum obcaecati provident possimus eveniet iste deserunt dignissimos cum voluptate officiis doloribus laudantium? Ipsam, error fugiat?</p>
+                   </div>
+                   <div class="btn">
+                    <a href="" class="btn btn-warning">Learn More</a>
+                   </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </section>
+
+  <section class=" service section-padding">
+    <div class="container">
+        <div class="text-center pb-5">
+            <h1>Our Service</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit, distinctio.</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center bg-dark text-white p-4 my-3 border-radius">
+                    <div class="card-header">
+                        <i class="bi bi-chat-right-dots"></i>
+                        <h3 class="card-title">Best Quality</h3>
+                    </div> 
+                    <div class="card-title">   
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum est laudantium commodi sapiente! Deleniti quas temporibus veritatis exercitationem eum?</p>
+                        <button class="btn btn-warning">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center bg-dark text-white p-4 my-3">
+                    <div class="card-header">
+                        <i class="bi bi-briefcase-fill"></i>
+                        <h3 class="card-title">Sustainability</h3>
+                    </div> 
+                    <div class="card-title">   
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil omnis distinctio unde vel, cupiditate temporibus at rerum consequatur minima?</p>
+                        <button class="btn btn-warning">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center bg-dark text-white p-4 my-3">
+                    <div class="card-header">
+                        <i class="bi bi-playstation"></i>
+                        <h3 class="card-title">Intergrity</h3>
+                    </div>  
+                    <div class="card-title">  
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quos ratione sapiente blanditiis ipsam, id consequatur tempora atque quibusdam quae.</p>
+                        <button class="btn btn-warning">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio" class="section-padding">
+    <div class="text-center">
+        <h2>Our Portfoilo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit, distinctio.</p>
+    </div>
+
+    <div class="container portfolio section-padding">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4 mt-4 text-center">
+                <div class="card">
+                    <div class="col-lg-12">
+                        <div class="card-body">
+                            <div class="image-area">
+                                <img src="images/project-1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <h3 class="card-title pt-2">Building Make</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur vel, quam incidunt mollitia perferendis voluptas aliquid animi ea consectetur?</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 mt-4 text-center">
+                <div class="card">
+                    <div class="col-lg-12">
+                        <div class="card-body">
+                            <div class="image-area">
+                                <img src="images/project-2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <h3 class="card-title pt-2">Building Make</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur vel, quam incidunt mollitia perferendis voluptas aliquid animi ea consectetur?</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 mt-4 text-center">
+                <div class="card">
+                    <div class="col-lg-12">
+                        <div class="card-body">
+                            <div class="image-area">
+                                <img src="images/project-3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <h3 class="card-title pt-2">Building Make</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur vel, quam incidunt mollitia perferendis voluptas aliquid animi ea consectetur?</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="team" class="team section-padding">
+    <div class="container">
+        <div class="text-center">
+            <h2><strong>Our Team</strong></h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit, distinctio.</p>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-3 text-center my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="img-fluid rounded-circle">
+                            <img src="images/team-1.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <h4 class="card-title pt-3"><strong>Jack Wilson</strong></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptatibus architecto dicta totam, sapiente non.</p>
+
+                        <div class="socials">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="img-fluid rounded-circle">
+                            <img src="images/team-2.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <h4 class="card-title pt-3"><strong>Jack Wilson</strong></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptatibus architecto dicta totam, sapiente non.</p>
+
+                        <div class="socials">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="img-fluid rounded-circle">
+                            <img src="images/team-3.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <h4 class="card-title pt-3"><strong>Jack Wilson</strong></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptatibus architecto dicta totam, sapiente non.</p>
+
+                        <div class="socials">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="img-fluid rounded-circle">
+                            <img src="images/team-4.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <h4 class="card-title pt-3"><strong>Jack Wilson</strong></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptatibus architecto dicta totam, sapiente non.</p>
+
+                        <div class="socials">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section-padding">
+    <div class="container text-center">
+        <h2><strong>Contact Us</strong></h2>
+        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit, distinctio.</p>
+    </div>
+
+    <div class="container p-4">
+        <div class="col-12 p-0 pt-2">
+            <input type="text" id="name" class="form-control" placeholder="Your Full name">
+        </div>
+        <div class="col-12 p-0 pt-2">
+            <input type="email" id="email" class="form-control" placeholder="Your Email here">
+        </div>
+        <div class="col-12 p-0 pt-2">
+            <textarea rows="3" required class="form-control" placeholder="Your Query here"></textarea>
+        </div>
+        <button class="btn btn-warning btn-lg btn-block mt-3 col-12">Send Now</button>
+    </div>
+    
+    
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
