@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1 !important;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.unknown {
+    background-color: black;
+    color: white;
+    padding: 3px 7px;
+}
+
+.title-section {
+    width: 63%;
+    padding: 15px;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 4px 9px 3px #c9c9c9;
+    margin-bottom: 50px;
+}
+
+.title img {
+    width: 100%;
+}
+
+.title-des {
+    padding: 20px 29px 6px 20px;
+    color: black;
+}
+
+.title-date {
+    color: rgb(161, 161, 161);
+}
+
+.title-des h2 {
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.title-des h5 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+strong {
+    border: 1px solid rgb(194, 194, 194);
+    padding: 15px 30px;
+}
+
+strong:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+
+.blog-bio {
+    width: 36%;
+    padding: 15px;
+}
+
+.blog-owner {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 4px 9px 3px #c9c9c9;
+}
+
+.blog-owner img {
+    width: 100%;
+}
+
+.name {
+    margin-left: 20px;
+    line-height: 1.7;
+}
+
+.read-more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    background-color: black;
+    color: white;
+    padding: 1px 7px;
+    border-radius: 50%;
+}
+
+div.title-des {
+    margin-bottom: 0;
+}
+
+.workshop img {
+    width: 50px;
+    margin-right: 12px;
+}
+
+.workshop {
+    display: flex;
+    margin: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+.workshop div h5 {
+    margin: 0;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.workshop div p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.workshop:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.popular {
+    padding: 25px 25px 25px 0;
+    font-size: 18px;
+    background-color: rgb(221, 221, 221);
+    padding-left: 10px;
+}
+
+.popular-post {
+    display: inline;
+}
+
+.popular-shadow {
+    margin-top: 40px;
+    box-shadow: 2px 4px 9px 3px #c9c9c9;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        display: grid;
+        width: 100%;
+    }
+
+    .title-section {
+        width: 100%;
+    }
+
+    .blog-bio {
+        width: 100%;
+    }
+}
+
+.traveled-countries {
+    width: 100%;
+}
+
+.traveled-countries span {
+    padding: 2px 15px;
+    background-color: rgb(228, 228, 228);
+    font-size: 12px;
+    color: rgb(109, 108, 108);
+}
+
+.traveled-countries span:first-child {
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+}
+
+.tags-section {
+    margin-top: 40px;
+    width: 100%;
+    box-shadow: 2px 4px 9px 3px #c9c9c9;
+}
+
+.tags {
+   padding: 15px 15px 8px 15px; 
+   font-size: 20px;
+   background-color: rgb(233, 233, 233);
+}
+
+.countries {
+    padding: 0px 10px 8px 12px;
+}
+
+.London {
+    margin-bottom: 20px;
+}
+
+footer div {
+    background-color: grey;
+    padding: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 13px 27px;
+    font-size: 17px;
+   
+}
+
+button:nth-child(2) {
+    padding: 13px 23px;
+    border: 0 solid black;
+}
+
+button:nth-child(1) {
+    background-color: rgb(82, 81, 81);
+    color: grey;
+    border: 0 solid rgb(82, 81, 81);
+    cursor: not-allowed;
+}
+
+footer p {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
